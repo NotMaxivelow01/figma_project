@@ -1,71 +1,67 @@
-/* * {
-    width: 100vw;
-    height: 100vh;
-} */
+* {
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
 
 body {
-    position: relative;
-    width: 367px;
-    height: 3294px;
-    background: #FFF7F0;
+    margin: 0;
+    padding: 0;
 }
 
-#recherche {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 16px;
-    top: 16px;
+.bouton_consu:hover {
+    background-color: #755CDE;
 }
 
-#header1 {
-    position: absolute;
-    left: 183px;
-    top: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    height: 50px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 19px;
-    line-height: 28px;
-    color: #FFF7F0;
-    background: #030303;
-    border-radius: 30px;
+.recherche {
+    margin: 20px;
+    width: 14%;
+    height: 14%;
+}
+
+.bouton_consu {
+    background: #000;
+    color: #fff;
+    border-radius: 50px;
+    padding: 4%;
+    float: right;
+    margin: 10px;
 }
 
 #text1 {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    position: absolute;
-    top: 96px;
     font-weight: 700;
     font-size: 40px;
     text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocks {
+    margin-left: 3%;
+    margin-top: 0;
+    padding: 10px;
+    width: 350px;
+    height: 1164px;
+    display: flex;
+    flex-direction: column;
 }
 
 #text2 {
-    height: 110px;
-    width: 360px;
+    margin-top: 5%;
     color: #7A746E;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 15px;
     text-align: center;
-    position: absolute;
-    top: 7%;
     line-height: 30px;
 }
 
 #block1 {
-    position: relative;
-    top: 390px;
+    padding: 10px;
     background-color: #755CDE;
-    width: 360px;
+    width: 330px;
     height: 364px;
     border-radius: 5px;
+
 }
 
 #pattern1 {
@@ -74,18 +70,23 @@ body {
 }
 
 #text3 {
-    position: absolute;
-    top: 82%;
-    margin: 15px;
+    width: 200px;
+    margin-left: 5%;
+    margin-top: 95%;
+    margin-bottom: 0;
     font-weight: 700;
     font-size: 26px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     color: #ffffff;
 }
 
+#blocks2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #block2 {
-    position: relative;
-    top: 430px;
+    margin-top: 20px;
+    margin-right: 0;
     background-color: #F6A560;
     width: 164px;
     height: 182px;
@@ -98,19 +99,18 @@ body {
 }
 
 #ux {
-    position: absolute;
-    top: 64%;
-    margin: 15px;
+    width: 90px;
+    height: 30px;
+    margin-top: 0;
+    margin-left: 15px;
     font-weight: 700;
     font-size: 32px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     color: #ffffff;
 }
 
 #block3 {
-    position: relative;
-    top: 247px;
-    left: 195px;
+    margin-top: 20px;
+    margin-left: 20px;
     background-color: #F39E9E;
     width: 164px;
     height: 182px;
@@ -123,21 +123,17 @@ body {
 }
 
 #app {
-    position: absolute;
-    top: 64%;
     margin: 15px;
     font-weight: 700;
     font-size: 32px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     color: #ffffff;
 }
 
 #block4 {
-    position: relative;
-    top: 277px;
+    margin-top: 5%;
     background-color: #EB7565;
-    width: 360px;
-    height: 182px;
+    width: 100%;
+    height: 15%;
     border-radius: 5px;
 }
 
@@ -147,21 +143,17 @@ body {
 }
 
 #illustrations {
-    position: absolute;
-    top: 64%;
     margin: 15px;
     font-weight: 700;
     font-size: 32px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     color: #ffffff;
 }
 
 #block5 {
-    position: relative;
-    top: 307px;
+    margin-top: 16px;
     background-color: #61C4B7;
-    width: 360px;
-    height: 202px;
+    width: 100%;
+    height: 15%;
     border-radius: 5px;
 }
 
@@ -171,18 +163,15 @@ body {
 }
 
 #Photographys {
-    position: absolute;
-    top: 64%;
-    margin: 15px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
     font-weight: 700;
     font-size: 32px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     color: #ffffff;
 }
 
 #block6 {
-    position: relative;
-    top: 337px;
     background-color: #552049;
     width: 360px;
     height: 182px;
@@ -195,54 +184,38 @@ body {
 }
 
 #Graphic {
-    position: absolute;
-    top: 64%;
     margin: 15px;
     font-weight: 700;
     font-size: 32px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     color: #ffffff;
 }
 
 #amy {
-
-    position: absolute;
-    left: 40px;
-    top: 1702px;
     width: 300px;
     height: 300px;
 }
 
 #text4 {
-    position: absolute;
-    top: 2030px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 28px;
     text-align: center;
 }
 
 #text5 {
-    position: absolute;
-    top: 2120px;
     color: #7A746E;
     font-weight: 550;
     font-size: 16px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
     line-height: 20px;
 }
 
 #text6 {
-    position: absolute;
-    left: 100px;
-    top: 2222px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 180px;
     height: 50px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 19px;
@@ -254,10 +227,6 @@ body {
 
 #text7 {
     font-size: 30px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    position: relative;
-    top: 1040px;
-    left: 130px;
     width: 150px;
     height: 30px;
 }
@@ -293,9 +262,6 @@ button .arrow {
 }
 
 #right-btn {
-    position: absolute;
-    top: 2700px;
-    left: 220px;
     z-index: 0;
     margin: auto 0 auto -2em;
     width: 50px;
@@ -311,9 +277,6 @@ button .arrow {
 }
 
 #left-btn {
-    position: absolute;
-    top: 2700px;
-    left: 120px;
     z-index: 0;
     margin: auto -2em auto 0;
     width: 50px;
@@ -334,43 +297,30 @@ button .arrow {
     background-color: #000;
     margin-top: 50%;
     border-radius: 10px;
-    position: relative;
 }
 
 #text9 {
-    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 26px;
     font-weight: 700;
     color: #ffffff;
     margin: 0;
-    position: absolute;
-    top: 10px;
-    left: 15%;
 }
 
 #text8 {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     margin: 0;
     color: white;
     text-align: center;
-    position: absolute;
-    top: 100px;
-    left: 0%;
     padding-left: 20px;
     padding-right: 20px;
     line-height: 25px;
 }
 
 #text10 {
-    position: absolute;
-    left: 25%;
-    top: 75%;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 180px;
     height: 50px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 19px;
@@ -379,447 +329,4 @@ button .arrow {
     background: #EB7565;
     border-radius: 30px;
     text-decoration: none;
-}
-
-#recherche2 {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 16px;
-    top: 3224px;
-}
-
-#header2 {
-    position: absolute;
-    left: 173px;
-    top: 3227px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    height: 50px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 19px;
-    line-height: 28px;
-    color: #FFF7F0;
-    background: #030303;
-    border-radius: 30px;
-}
-
-@media screen and (min-width: 768px) {
-    body {
-        position: relative;
-        width: 768px;
-        height: 2500px;
-        background: #FFF7F0;
-    }
-
-    #recherche {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 16px;
-        top: 16px;
-    }
-
-    #header1 {
-        position: absolute;
-        left: 573px;
-        top: 18px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 180px;
-        height: 50px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 19px;
-        line-height: 28px;
-        color: #FFF7F0;
-        background: #030303;
-        border-radius: 30px;
-    }
-
-    #text1 {
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        position: absolute;
-        top: 96px;
-        left: 110px;
-        font-weight: 700;
-        font-size: 40px;
-        text-align: center;
-    }
-
-    #text2 {
-        height: 110px;
-        width: 700px;
-        color: #7A746E;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        font-weight: 500;
-        font-size: 24px;
-        text-align: center;
-        position: absolute;
-        left: 5%;
-        top: 7%;
-        line-height: 30px;
-    }
-
-    #block1 {
-        position: relative;
-        top: 390px;
-        left: 39px;
-        background-color: #755CDE;
-        width: 333px;
-        height: 364px;
-        border-radius: 5px;
-    }
-
-    #pattern1 {
-        float: right;
-        margin: 24px;
-    }
-
-    #text3 {
-        position: absolute;
-        top: 82%;
-        margin: 15px;
-        font-weight: 700;
-        font-size: 26px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        color: #ffffff;
-    }
-
-    #block2 {
-        position: relative;
-        top: 25px;
-        left: 396px;
-        background-color: #F6A560;
-        width: 164px;
-        height: 182px;
-        border-radius: 5px;
-    }
-
-    #ui {
-        float: right;
-        margin: 24px;
-    }
-
-    #ux {
-        position: absolute;
-        top: 64%;
-        margin: 15px;
-        font-weight: 700;
-        font-size: 32px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        color: #ffffff;
-    }
-
-    #block3 {
-        position: relative;
-        top: -155px;
-        left: 574px;
-        background-color: #F39E9E;
-        width: 155px;
-        height: 182px;
-        border-radius: 5px;
-    }
-
-    #apps {
-        float: right;
-        margin: 24px;
-    }
-
-    #app {
-        position: absolute;
-        top: 64%;
-        margin: 15px;
-        font-weight: 700;
-        font-size: 32px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        color: #ffffff;
-    }
-
-    #block4 {
-        position: relative;
-        top: -130px;
-        left: 396px;
-        background-color: #EB7565;
-        width: 333px;
-        height: 158px;
-        border-radius: 5px;
-    }
-
-    #illustration {
-        float: right;
-        margin: 24px;
-    }
-
-    #illustrations {
-        position: absolute;
-        top: 64%;
-        margin: 15px;
-        font-weight: 700;
-        font-size: 32px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        color: #ffffff;
-    }
-
-    #block5 {
-        position: relative;
-        top: -100px;
-        left: 39px;
-        background-color: #61C4B7;
-        width: 333px;
-        height: 182px;
-        border-radius: 5px;
-    }
-
-    #Photography {
-        float: right;
-        margin: 24px;
-    }
-
-    #Photographys {
-        position: absolute;
-        top: 64%;
-        margin: 15px;
-        font-weight: 700;
-        font-size: 32px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        color: #ffffff;
-    }
-
-    #block6 {
-        position: relative;
-        top: -282px;
-        left:396px;
-        background-color: #552049;
-        width: 333px;
-        height: 182px;
-        border-radius: 5px;
-    }
-
-    #Motion {
-        float: right;
-        margin: 24px;
-    }
-
-    #Graphic {
-        position: absolute;
-        top: 64%;
-        margin: 15px;
-        font-weight: 700;
-        font-size: 32px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        color: #ffffff;
-    }
-
-    #amy {
-        position: absolute;
-        right: 488;
-        top: 1102px;
-        width: 364px;
-        height: 364px;
-    }
-
-    #text4 {
-        position: absolute;
-        top: 2030px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        font-weight: 700;
-        font-size: 28px;
-        text-align: center;
-    }
-
-    #text5 {
-        position: absolute;
-        top: 1520px;
-        color: #7A746E;
-        font-weight: 550;
-        font-size: 16px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        text-align: center;
-        line-height: 20px;
-    }
-
-    #text6 {
-        position: absolute;
-        left: 100px;
-        top: 2222px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 180px;
-        height: 50px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 19px;
-        line-height: 28px;
-        color: #FFF7F0;
-        background: #EB7565;
-        border-radius: 30px;
-    }
-
-    #text7 {
-        font-size: 30px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        position: relative;
-        top: 600px;
-        left: 340px;
-        width: 150px;
-        height: 30px;
-    }
-
-    .container {
-        margin-top: 1000px;
-        width: 370px;
-        height: 200px;
-    }
-
-    .container img {
-        width: 360px;
-        border-bottom: 100px;
-        z-index: -2;
-    }
-
-    button {
-        border: none;
-        outline: none;
-        background: rgba(0, 0, 0, 0);
-        cursor: pointer;
-        padding: 1em;
-        display: flex;
-    }
-
-    button .arrow {
-        border: solid #fff;
-        border-width: 0 4px 4px 0;
-        display: inline-block;
-        padding: 10px;
-        transition: transform 0.3s ease-out;
-        outline: none;
-    }
-
-    #right-btn {
-        position: absolute;
-        top: 2700px;
-        left: 220px;
-        z-index: 0;
-        margin: auto 0 auto -2em;
-        width: 50px;
-        height: 50px;
-        border: 0;
-        background-color: black;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-
-    #right-btn .arrow {
-        transform: rotate(-45deg);
-    }
-
-    #left-btn {
-        position: absolute;
-        top: 2700px;
-        left: 120px;
-        z-index: 0;
-        margin: auto -2em auto 0;
-        width: 50px;
-        height: 50px;
-        border: 0;
-        background-color: black;
-        border-radius: 50%;
-        cursor: pointer;
-    }
-
-    #left-btn .arrow {
-        transform: rotate(135deg);
-    }
-
-    #block7 {
-        width: 359px;
-        height: 322px;
-        background-color: #000;
-        margin-top: 50%;
-        border-radius: 10px;
-        position: relative;
-    }
-
-    #text9 {
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 26px;
-        font-weight: 700;
-        color: #ffffff;
-        margin: 0;
-        position: absolute;
-        top: 10px;
-        left: 15%;
-    }
-
-    #text8 {
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        margin: 0;
-        color: white;
-        text-align: center;
-        position: absolute;
-        top: 100px;
-        left: 0%;
-        padding-left: 20px;
-        padding-right: 20px;
-        line-height: 25px;
-    }
-
-    #text10 {
-        position: absolute;
-        left: 25%;
-        top: 75%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 180px;
-        height: 50px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 19px;
-        line-height: 28px;
-        color: #FFF7F0;
-        background: #EB7565;
-        border-radius: 30px;
-        text-decoration: none;
-    }
-
-    #recherche2 {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 16px;
-        top: 3224px;
-    }
-
-    #header2 {
-        position: absolute;
-        left: 173px;
-        top: 3227px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 180px;
-        height: 50px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 19px;
-        line-height: 28px;
-        color: #FFF7F0;
-        background: #030303;
-        border-radius: 30px;
-    }
-
 }
