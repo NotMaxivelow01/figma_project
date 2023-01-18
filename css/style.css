@@ -8,57 +8,85 @@ body {
     padding: 0;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recherche {
+    margin: 5%;
+    width: 48px;
+    height: 48px;
+}
+
+.bouton_consu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    border-radius: 50px;
+    float: right;
+    margin: 5%;
+    width: 176px;
+    height: 44px;
+}
+
 .bouton_consu:hover {
     background-color: #755CDE;
 }
 
-.recherche {
-    margin: 20px;
-    width: 14%;
-    height: 14%;
+.Text {
+    display: flex;
+    flex-direction: column;
 }
 
-.bouton_consu {
-    background: #000;
-    color: #fff;
-    border-radius: 50px;
-    padding: 4%;
-    float: right;
-    margin: 10px;
+.p1 {
+    margin: -50px 0 0 45px;
+    color: #7A746E;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    width: 285px;
+    height: 64px;
+    display: flex;   
 }
 
 #text1 {
     font-weight: 700;
     font-size: 40px;
     text-align: center;
-    margin: 0;
+    margin: 0%;
     display: flex;
     flex-direction: column;
 }
 
+#text2 {
+    margin: 5% 0 0 45px;
+    color: #7A746E;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    width: 295px;
+    height: 104px;
+}
+
 .blocks {
-    margin-left: 3%;
+    margin-left: 10px;
     margin-top: 0;
-    padding: 10px;
+    padding: 5px;
     width: 350px;
     height: 1164px;
     display: flex;
     flex-direction: column;
 }
 
-#text2 {
-    margin-top: 5%;
-    color: #7A746E;
-    font-weight: 400;
-    font-size: 15px;
-    text-align: center;
-    line-height: 30px;
-}
-
 #block1 {
     padding: 10px;
     background-color: #755CDE;
-    width: 330px;
+    width: 343px;
     height: 364px;
     border-radius: 5px;
 
@@ -82,6 +110,7 @@ body {
 #blocks2 {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row;
 }
 
 #block2 {
@@ -132,7 +161,7 @@ body {
 #block4 {
     margin-top: 5%;
     background-color: #EB7565;
-    width: 100%;
+    width: 343px;
     height: 15%;
     border-radius: 5px;
 }
@@ -152,8 +181,8 @@ body {
 #block5 {
     margin-top: 16px;
     background-color: #61C4B7;
-    width: 100%;
-    height: 15%;
+    width: 343px;
+    height: 182px;
     border-radius: 5px;
 }
 
@@ -163,7 +192,7 @@ body {
 }
 
 #Photographys {
-    margin-top: 0;
+    margin-top: 120px;
     margin-left: 10px;
     margin-bottom: 0;
     font-weight: 700;
@@ -173,9 +202,10 @@ body {
 
 #block6 {
     background-color: #552049;
-    width: 360px;
+    width: 343px;
     height: 182px;
     border-radius: 5px;
+    margin-top: 16px;
 }
 
 #Motion {
